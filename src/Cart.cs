@@ -15,7 +15,7 @@ public static class Cart
     /// <summary>Shipping costs: free from 50 euro, otherwise 4.95.</summary>
     public static decimal Shipping(decimal amount)
     {
-        if (amount > 50)
+        if (amount >= 50)
             return 0m;
         return 4.95m;
     }
