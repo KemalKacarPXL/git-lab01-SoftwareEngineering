@@ -1,0 +1,17 @@
+Which branches exist on the remote?
+-* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/feature/export
+  remotes/origin/feature/search
+  remotes/origin/main
+
+Which commit is tagged v1.0?
+-* ab82465 (tag: v1.0) Add shipping costs
+
+Run the tests on main. They fail. Which commit broke them?
+-  215b421 Refactor discount calculation
+
+Has that commit been pushed? What does that mean for how you can undo it?
+- yes, revert
+
+
